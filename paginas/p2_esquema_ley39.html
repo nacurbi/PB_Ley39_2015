@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ley 39/2015 (Artículos 1 a 25)</title>
+<link rel="stylesheet" href="../src/estilo.css">
+<style>
+*{box-sizing:border-box}
+body{display:block;padding:16px 12px 24px}
+.container{max-width:800px;margin:0 auto}
+h1{font-size:1.4rem;color:#F9FAFC;margin:0 0 .4rem;line-height:1.25}
+h2{font-size:1.1rem;color:#F9FAFC;margin:2.2rem 0 .9rem;padding-bottom:.35rem;border-bottom:2px solid var(--acento);line-height:1.3}
+p{margin:0 0 .6rem}
+.sub{color:#F9FAFC;font-size:.98rem;font-weight:bold;margin:1.2rem 0 .6rem}
+
+/* tarjetas */
+.card{background:var(--caja);border:2px solid var(--acento);border-radius:4px;overflow:hidden;margin-bottom:1rem;color:var(--texto)}
+.card>h3{margin:0;background:var(--acento);color:#fff;font-size:.95rem;padding:.55rem .9rem;line-height:1.3}
+.card .cuerpo{padding:.8rem .95rem;font-size:15px;line-height:1.55}
+.card .cuerpo>*:last-child{margin-bottom:0}
+.card ol,.card ul{margin:.3rem 0 .6rem;padding-left:1.3rem}
+.card li{margin-bottom:.4rem}
+.card ul ul,.card ol ul{margin-top:.35rem}
+.card strong{color:#1E293B}
+.etq{color:#3f546a}
+
+
+/* tabla comparativa */
+.tabla-scroll{overflow-x:auto;margin-bottom:1.4rem;border-radius:4px}
+table{width:100%;min-width:640px;border-collapse:collapse;background:var(--caja);border:2px solid var(--acento)}
+th,td{padding:.65rem .8rem;text-align:left;border-bottom:1px solid var(--borde);vertical-align:top;line-height:1.45;font-size:14px;color:var(--texto)}
+th{background:var(--acento);color:#fff;font-size:.85rem}
+tr:last-child td{border-bottom:none}
+tr:nth-child(even) td{background:#F1F4F8}
+td:first-child{font-weight:bold;color:#3f546a}
+.si{color:#1e6b34;font-weight:bold}
+.no{color:#9b2c35;font-weight:bold}
+
+/* test */
+.preg{background:var(--caja);border:2px solid var(--acento);border-radius:4px;padding:.85rem .95rem;margin-bottom:.9rem;color:var(--texto)}
+.preg .enun{font-size:15px;font-weight:bold;line-height:1.45;margin-bottom:.6rem}
+.preg .opciones-contenedor{margin-bottom:0}
+.preg .opcion{width:100%;font-size:15px;background:#F1F4F8}
+.preg .opcion:not(.correcta):not(.incorrecta):hover{background:#D3DCE7}
+.preg.resuelta .opcion{cursor:default}
+.preg.resuelta .opcion:not(.correcta):not(.incorrecta):hover{background:#F1F4F8}
+.expl{margin-top:.7rem;border-radius:4px;padding:.75rem .95rem;font-size:15px;line-height:1.5;color:var(--texto)}
+.expl.ok{background:#eaf7ee;border:1px solid #85d192;border-left:5px solid #5fb36f}
+.expl.ko{background:#fdeced;border:1px solid #f0a1a8;border-left:5px solid #d9727c}
+.expl .res{display:block;margin-bottom:.2rem}
+.expl.ok .res{color:#1e6b34}
+.expl.ko .res{color:#9b2c35}
+
+@media(max-width:600px){body{padding:12px 8px 20px}h1{font-size:1.2rem}.card .cuerpo,.fase,.preg{padding:.7rem .75rem}}
+</style>
+</head>
+<body>
+<div class="container">
+
+  <h1>Ley 39/2015 (Artículos 1 a 25)</h1>
+
+  <h2>1. Capacidad de Obrar, Interesados y Pluralidad (Arts. 3, 4 y 7)</h2>
+  <div class="card">
+    <h3>Artículo 3. Capacidad de obrar</h3>
+    <div class="cuerpo">
+<p>Tienen capacidad de obrar ante las Administraciones Públicas:</p>
+<ol>
+<li><strong>Personas físicas y personas jurídicas</strong>.
+</li>
+<li><strong>Menores de edad</strong>: Para el ejercicio y defensa de aquellos derechos e intereses cuya actuación esté permitida por el ordenamiento jurídico.
+</li>
+<li><strong>Grupos de afectados, uniones y entidades sin personalidad jurídica y patrimonios independientes o autónomos</strong>: Únicamente cuando la ley así lo declare expresamente.
+</li></ol>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Artículo 4. Concepto de interesado</h3>
+    <div class="cuerpo">
+<p>Tienen la consideración de interesados en el procedimiento administrativo:</p>
+<ol>
+<li><strong>Promotores</strong>: Quienes lo promuevan como titulares de derechos o intereses legítimos, ya sean individuales o colectivos.
+</li>
+<li><strong>Afectados con derechos</strong>: Los que, sin haber iniciado el procedimiento, tengan derechos que puedan resultar afectados por la decisión que en el mismo se adopte.
+</li>
+<li><strong>Afectados con intereses</strong>: Aquellos cuyos intereses legítimos (individuales o colectivos) puedan resultar afectados por la resolución y se personen en el procedimiento en tanto no haya recaído resolución definitiva.
+</li></ol>
+<ul>
+<li><strong>Sucesión en la condición de interesado (Art. 4.3)</strong>: Cuando la condición de interesado derive de alguna relación jurídica transmisible, el derechohabiente sucede en tal condición cualquiera que sea el estado del procedimiento.
+</li></ul>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Artículo 7. Pluralidad de interesados</h3>
+    <div class="cuerpo">
+<ul>
+<li>Cuando en una solicitud, escrito o comunicación figuren varios interesados, las actuaciones de la Administración se entenderán con el <strong>representante o interesado señalado expresamente</strong>.
+</li>
+<li>En su defecto, la Administración se entenderá con el que <strong>figure en primer término</strong>.
+</li></ul>
+    </div>
+  </div>
+
+  <h2>2. Representación y Registro Electrónico de Apoderamientos (Arts. 5 y 6)</h2>
+  <div class="card">
+    <h3>Artículo 5. Representación</h3>
+    <div class="cuerpo">
+<ul>
+<li><strong>Capacidad del representante</strong>: Puede actuar en nombre y representación de otra persona cualquier persona física con capacidad de obrar y las personas jurídicas.
+</li>
+<li><strong>Obligación de acreditación fehaciente</strong>: Es obligatorio acreditar fehacientemente la representación por cualquier medio válido en derecho en los siguientes supuestos:
+<ul>
+<li>Formular solicitudes.
+</li>
+<li>Presentar declaraciones responsables o comunicaciones.
+</li>
+<li>Interponer recursos.
+</li>
+<li>Desistir de acciones.
+</li>
+<li>Renunciar a derechos.
+</li></ul>
+</li>
+<li><strong>Presunción de representación</strong>: Para las actuaciones de mero trámite se presuma la representación.
+</li>
+<li><strong>Subsanación de defectos de representación</strong>: La falta o defecto de acreditación de la representación no impide que se tenga por realizado el acto si se subsana o aporta la acreditación en el plazo de <strong>10 días hábiles</strong> (o plazo superior concedido por la Administración).
+</li></ul>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Artículo 6. Registro Electrónico de Apoderamientos</h3>
+    <div class="cuerpo">
+<p>Este artículo reviste especial trascendencia para pruebas teóricas y de desarrollo. Se contemplan tres tipologías de apoderamientos:</p>
+<ol>
+<li><strong>Apoderamiento General</strong>: Válido para cualquier Administración Pública y para cualquier actuación administrativa.
+</li>
+<li><strong>Apoderamiento para órgano determinado</strong>: Válido para cualquier actuación administrativa ante una Administración u órgano concreto.
+</li>
+<li><strong>Apoderamiento Específico</strong>: Válido únicamente para determinados trámites específicos previstos en el poder.
+</li></ol>
+<ul>
+<li><strong>Vigencia</strong>: Los apoderamientos inscritos tienen una duración máxima de <strong>5 años</strong>, siendo prorrogables.
+</li></ul>
+    </div>
+  </div>
+
+  <h2>3. Derechos de las Personas, Interesados y Relación Electrónica (Arts. 13, 14 y 53)</h2>
+  <div class="card">
+    <h3>Relación entre el Artículo 13 y el Artículo 53</h3>
+    <div class="cuerpo">
+<ul>
+<li><strong>Artículo 13</strong>: Establece los derechos generales que corresponden a todas las personas en sus relaciones con las Administraciones Públicas.
+</li>
+<li><strong>Artículo 53</strong>: Determina los derechos específicos de los que gozan aquellas personas cuando adquieren la condición formal de <strong>interesadas</strong> en un procedimiento administrativo concreto.
+</li></ul>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Artículo 14. Derecho y obligación de relacionarse electrónicamente</h3>
+    <div class="cuerpo">
+<ul>
+<li><strong>Sujetos OBLIGADOS a relacionarse a través de medios electrónicos</strong>:
+<ol>
+<li>Personas jurídicas.
+</li>
+<li>Entidades sin personalidad jurídica.
+</li>
+<li>Quienes ejerzan una actividad profesional que requiera colegiación obligatoria (para los trámites realizados en ejercicio de dicha actividad).
+</li>
+<li>Quienes representen a un interesado que esté obligado a relacionarse electrónicamente.
+</li>
+<li><strong>Empleados públicos</strong>: Exclusivamente para los trámites y actuaciones que realicen por razón de su condición de empleado público.
+</li></ol>
+</li>
+<li><strong>Regla aplicable a las personas físicas</strong>:
+<ul>
+<li>Las personas físicas pueden elegir <strong>en todo momento</strong> si se comunican con las Administraciones Públicas a través de medios electrónicos o en papel.
+</li>
+<li>Pueden <strong>modificar la elección en cualquier momento</strong>, salvo que estén obligadas expresamente por norma a relacionarse por medios electrónicos.
+</li></ul>
+</li></ul>
+    </div>
+  </div>
+
+  <h2>4. Lengua del Procedimiento y Comparecencia (Arts. 15 y 19)</h2>
+  <div class="card">
+    <h3>Artículo 15. Lengua de los procedimientos</h3>
+    <div class="cuerpo">
+<ul>
+<li>La lengua de los procedimientos tramitados por la Administración General del Estado es el <strong>castellano</strong>.
+</li>
+<li>En los procedimientos tramitados por Administraciones radicadas en el territorio de una Comunidad Autónoma con lengua cooficial, los interesados podrán utilizar la lengua cooficial y la Administración responderá en dicha lengua.
+</li>
+<li><strong>Discrepancia entre varios interesados</strong>: Si concurren varios interesados y existe discrepancia en la elección de la lengua, el procedimiento se tramitará en <strong>castellano</strong>, si bien los documentos o testimonios se expedirán en la lengua elegida por cada interesado.
+</li>
+<li><strong>Escritos dirigidos a órganos centrales</strong>: Si se dirige un escrito a un órgano central (como un Ministerio) y no se especifica su ubicación en una sede con lengua cooficial, la lengua del procedimiento es el castellano.
+</li></ul>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Artículo 19. Comparecencia de las personas</h3>
+    <div class="cuerpo">
+<ul>
+<li>La comparecencia de las personas ante las oficinas públicas (presencial o electrónica) solo es <strong>obligatoria</strong> cuando así esté previsto expresamente en una <strong>norma con rango de ley</strong>.
+</li></ul>
+    </div>
+  </div>
+
+  <h2>5. Obligación de Resolver, Plazos y Cómputo (Art. 21)</h2>
+  <div class="card">
+    <h3>Artículo 21. Obligación de resolver</h3>
+    <div class="cuerpo">
+<ul>
+<li><strong>Regla General</strong>: La Administración está obligada a dictar resolución expresa y a notificarla en todos los procedimientos, cualquiera que sea su forma de iniciación.
+</li>
+<li><strong>Excepciones formales</strong>: En casos de renuncia al derecho, desistimiento, caducidad o desaparición sobrevenida del objeto del procedimiento, la resolución consistirá en la declaración de la circunstancia que concurra.
+</li></ul>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Plazos máximos de resolución y notificación</h3>
+    <div class="cuerpo">
+<ol>
+<li>El plazo máximo será el que establezca la <strong>norma reguladora del correspondiente procedimiento</strong>.
+</li>
+<li>Dicho plazo <strong>no podrá exceder de 6 meses</strong>, salvo que una norma con rango de ley establezca uno mayor o así venga previsto en el Derecho de la Unión Europea.
+</li>
+<li><strong>Plazo supletorio</strong>: Si las normas reguladoras no fijan un plazo máximo, este será de <strong>3 meses</strong>.
+</li></ol>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Cómputo de inicio del plazo</h3>
+    <div class="cuerpo">
+<ul>
+<li><strong>Procedimientos iniciados de oficio</strong>: El plazo se computa desde la fecha del <strong>acuerdo de iniciación</strong>.
+</li>
+<li><strong>Procedimientos iniciados a solicitud del interesado</strong>: El plazo se computa desde la fecha en que la solicitud haya tenido <strong>entrada en el registro electrónico de la Administración u organismo competente para su tramitación</strong>.
+</li></ul>
+    </div>
+  </div>
+
+  <h2>6. Suspensión y Ampliación de Plazos (Arts. 22, 23 y 32)</h2>
+  <div class="card">
+    <h3>Artículo 22. Suspensión del plazo máximo para resolver</h3>
+    <div class="cuerpo">
+<ul>
+<li><strong>Apartado 1 (Suspensión Potestativa)</strong>: Establece supuestos en los que el plazo <strong>se podrá suspender</strong> por la Administración.
+</li>
+<li><strong>Apartado 2 (Suspensión Obligatoria)</strong>: Establece supuestos en los que el plazo <strong>se suspenderá de forma obligatoria</strong>, entre los que destaca la formulación de una <strong>recusación</strong>.
+</li></ul>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Artículo 23. Ampliación del plazo máximo para resolver y notificar</h3>
+    <div class="cuerpo">
+<ul>
+<li>Cuando se hayan agotado los medios personales y materiales disponibles (conforme al Art. 21.5), la Administración podrá acordar motivadamente la ampliación del plazo máximo, sin que pueda exceder del plazo establecido para la tramitación (hasta la duplicación del plazo).
+</li>
+<li><strong>Regla de impugnación</strong>: Contra el acuerdo que resuelva la ampliación de plazos del artículo 23 <strong>NO cabrá recurso alguno</strong>.
+</li></ul>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Artículo 32. Ampliación general de plazos</h3>
+    <div class="cuerpo">
+<ul>
+<li>La Administración puede conceder de oficio o a petición de parte una ampliación de los plazos que <strong>no exceda de la mitad de los mismos</strong>.
+</li>
+<li>Procede especialmente en procedimientos tramitados por misiones diplomáticas, oficinas consulares o cuando deban cumplimentarse trámites en el extranjero.
+</li>
+<li><strong>Regla de prohibición absoluta</strong>: En <strong>NINGÚN CASO podrá ser objeto de ampliación un plazo ya vencido</strong>.
+</li></ul>
+    </div>
+  </div>
+
+  <h2>7. Silencio Administrativo a Solicitud del Interesado (Art. 24)</h2>
+  <div class="card">
+    <h3>Regla General</h3>
+    <div class="cuerpo">
+<p>En los procedimientos iniciados a solicitud del interesado, el silencio administrativo tiene carácter <strong>ESTIMATORIO (Positivo)</strong>.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Excepciones: Supuestos de Silencio DESESTIMATORIO (Negativo)</h3>
+    <div class="cuerpo">
+<p>El silencio se entiende desestimatorio cuando:</p>
+<ol>
+<li>Lo disponga una norma con rango de ley, de Derecho de la UE o de Derecho internacional.
+</li>
+<li>La solicitud verse sobre el acceso a actividades o su ejercicio y una ley disponga el carácter desestimatorio por razones imperiosas de interés general.
+</li>
+<li>Procedimientos relativos al <strong>derecho de petición</strong> (Art. 29 CE).
+</li>
+<li>Procedimientos cuya estimación tenga como consecuencia la transferencia al solicitante o a terceros de facultades relativas al <strong>dominio público o servicio público</strong>.
+</li>
+<li>Procedimientos que impliquen el ejercicio de actividades que puedan <strong>dañar el medio ambiente</strong>.
+</li>
+<li>Procedimientos de <strong>responsabilidad patrimonial</strong> de las Administraciones Públicas.
+</li>
+<li>Procedimientos de <strong>impugnación de actos y disposiciones (recursos)</strong> y de <strong>revisión de oficio</strong>.
+</li></ol>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>El Doble Silencio Positivo en Recursos de Alzada</h3>
+    <div class="cuerpo">
+<p>Cuando se interpone un recurso de alzada contra la desestimación por silencio administrativo de una solicitud, y el recurso tampoco es resuelto expresamente, el silencio se convierte en <strong>ESTIMATORIO (Positivo)</strong>.</p>
+<ul>
+<li><strong>Excepción estricta</strong>: Esta regla del doble silencio positivo NO se aplica si el asunto versa sobre las materias exceptuadas (dominio público, servicio público, medio ambiente, responsabilidad patrimonial, o cuando lo prohíba norma con rango de ley o Derecho UE).
+</li></ul>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Efectos de la Resolución Posterior al Silencio</h3>
+    <div class="cuerpo">
+<ul>
+<li><strong>Si el silencio fue ESTIMATORIO</strong>: La resolución expresa posterior solo puede ser <strong>CONFIRMATORIA (Positiva)</strong>.
+</li>
+<li><strong>Si el silencio fue DESESTIMATORIO</strong>: La resolución expresa posterior se dicta <strong>SIN VINCULACIÓN al sentido del silencio</strong> (pudiendo ser estimatoria o desestimatoria).
+</li>
+<li><strong>Certificado del silencio</strong>: Se expide de oficio en el plazo de <strong>15 días</strong> desde que expira el plazo máximo de resolución.
+</li></ul>
+    </div>
+  </div>
+
+  <h2>8. Silencio Administrativo en Procedimientos Iniciados de Oficio (Art. 25)</h2>
+<p>En los procedimientos iniciados de oficio, el vencimiento del plazo máximo sin resolución expresa produce los siguientes efectos:</p>
+<ul>
+<li><strong>Efectos FAVORABLES (Reconocimiento o constitución de derechos)</strong>: El silencio es <strong>DESESTIMATORIO</strong> (desestimación de la pretensión).
+</li>
+<li><strong>Efectos DESFAVORABLES o de gravamen (Potestad sancionadora, intervención, multas)</strong>: Se produce la <strong>CADUCIDAD</strong> del procedimiento.
+</li></ul>
+  <h2>9. Matices de Alta Frecuencia en Examen (Cuadro de Síntesis)</h2>
+<div class="tabla-scroll">
+<table>
+<thead><tr><th>Concepto / Artículo</th><th>Regla Clave</th><th>Matiz o Excepción Exigible en Examen</th></tr></thead>
+<tbody>
+<tr><td><strong>Acreditación Representación (Art. 5)</strong></td><td>Exigible en solicitudes, recursos, renuncia y desistimiento.</td><td>En actos de mero trámite se presuma. Subsanación en 10 días hábiles.</td></tr>
+<tr><td><strong>Apoderamiento (Art. 6)</strong></td><td>3 tipos: General, Órgano Concreto, Trámite Específico.</td><td>Duración máxima de 5 años prorrogables.</td></tr>
+<tr><td><strong>Pluralidad Interesados (Art. 7)</strong></td><td>Notificación a la persona designada.</td><td>En su defecto, se notifica al primer firmante o que figure en primer término.</td></tr>
+<tr><td><strong>Relación Electrónica (Art. 14)</strong></td><td>Personas físicas pueden elegir medios en todo momento.</td><td>Empleados públicos solo están obligados en trámites por su condición de tal.</td></tr>
+<tr><td><strong>Plazo Máximo Resolución (Art. 21)</strong></td><td>El que fije la norma reguladora (máximo 6 meses).</td><td>Supletorio de 3 meses si la norma no fija plazo.</td></tr>
+<tr><td><strong>Cómputo Inicio Solicitud (Art. 21)</strong></td><td>Desde la entrada en el registro del órgano competente.</td><td>No cuenta la fecha de entrega en Correos u otro registro auxiliar.</td></tr>
+<tr><td><strong>Ampliación Art. 23 vs Art. 32</strong></td><td>Art. 23: Duplicación por falta de medios (sin recurso).</td><td>Art. 32: Hasta la mitad del plazo. Prohibido ampliar plazos ya vencidos.</td></tr>
+<tr><td><strong>Resolución posterior al silencio (Art. 24)</strong></td><td>Silencio positivo = resolución confirmatoria.</td><td>Silencio negativo = resolución sin vinculación al sentido desestimatorio.</td></tr>
+</tbody>
+</table>
+</div>
+  <h2>10. Test de Autoevaluación para la OPE (Gobierno Vasco 2027)</h2>
+  <div class="sub">Preguntas</div>
+  <div class="preg" data-correcta="2">
+    <div class="enun">1. ¿Cuál es el plazo supletorio máximo para resolver y notificar un procedimiento administrativo cuando la norma reguladora del mismo no fija un plazo expreso?</div>
+    <div class="opciones-contenedor">
+      <button type="button" class="opcion" data-i="0">A) 6 meses.</button>
+      <button type="button" class="opcion" data-i="1">B) 1 mes.</button>
+      <button type="button" class="opcion" data-i="2">C) 3 meses.</button>
+      <button type="button" class="opcion" data-i="3">D) 10 días hábiles.</button>
+    </div>
+    <div class="expl hidden" data-letra="C">Conforme al artículo 21.3 de la Ley 39/2015, cuando las normas reguladoras de los procedimientos no fijen el plazo máximo para resolver y notificar, este será de <strong>tres meses</strong>.</div>
+  </div>
+
+  <div class="preg" data-correcta="2">
+    <div class="enun">2. En los procedimientos iniciados a solicitud del interesado, ¿desde qué momento exacto se inicia el cómputo del plazo máximo para resolver y notificar?</div>
+    <div class="opciones-contenedor">
+      <button type="button" class="opcion" data-i="0">A) Desde la fecha en que se firme la solicitud por el interesado.</button>
+      <button type="button" class="opcion" data-i="1">B) Desde la fecha del acuerdo de iniciación dictado por la Administración.</button>
+      <button type="button" class="opcion" data-i="2">C) Desde la fecha en que la solicitud haya tenido entrada en el registro electrónico de la Administración u organismo competente para su tramitación.</button>
+      <button type="button" class="opcion" data-i="3">D) Desde la fecha de entrega de la solicitud en una oficina de Correos.</button>
+    </div>
+    <div class="expl hidden" data-letra="C">Según el artículo 21.3.b), en los procedimientos iniciados a solicitud del interesado, el plazo se computa desde la fecha en que la solicitud haya tenido <strong>entrada en el registro electrónico de la Administración u organismo competente para su tramitación</strong>.</div>
+  </div>
+
+  <div class="preg" data-correcta="2">
+    <div class="enun">3. ¿Qué recurso cabe interponer contra el acuerdo de ampliación del plazo máximo de resolución por falta de medios personales y materiales regulado en el artículo 23 de la Ley 39/2015?</div>
+    <div class="opciones-contenedor">
+      <button type="button" class="opcion" data-i="0">A) Recurso de alzada.</button>
+      <button type="button" class="opcion" data-i="1">B) Recurso potestativo de reposición.</button>
+      <button type="button" class="opcion" data-i="2">C) No cabe recurso alguno.</button>
+      <button type="button" class="opcion" data-i="3">D) Recurso extraordinario de revisión.</button>
+    </div>
+    <div class="expl hidden" data-letra="C">Conforme dispone expresamente el artículo 23.2 de la Ley 39/2015, contra el acuerdo que resuelva la ampliación de plazos por falta de medios <strong>no cabrá recurso alguno</strong>.</div>
+  </div>
+
+  <div class="preg" data-correcta="2">
+    <div class="enun">4. En los procedimientos iniciados de oficio con efectos desfavorables o de gravamen (como un procedimiento sancionador), ¿qué efecto produce el vencimiento del plazo máximo sin que se haya dictado y notificado resolución expresa?</div>
+    <div class="opciones-contenedor">
+      <button type="button" class="opcion" data-i="0">A) La estimación por silencio administrativo positivo.</button>
+      <button type="button" class="opcion" data-i="1">B) La desestimación por silencio administrativo negativo.</button>
+      <button type="button" class="opcion" data-i="2">C) La caducidad del procedimiento.</button>
+      <button type="button" class="opcion" data-i="3">D) La prescripción automática de la infracción.</button>
+    </div>
+    <div class="expl hidden" data-letra="C">Conforme al artículo 25.1.b) de la Ley 39/2015, en los procedimientos iniciados de oficio de los que pudiera derivarse la imposición de sanciones o la producción de efectos desfavorables o de gravamen, el vencimiento del plazo produce la <strong>caducidad</strong> del procedimiento.</div>
+  </div>
+
+</div>
+<script>
+document.querySelectorAll('.preg').forEach(function (q) {
+  var correcta = +q.dataset.correcta, expl = q.querySelector('.expl'), ops = q.querySelectorAll('.opcion');
+  ops.forEach(function (b) {
+    b.addEventListener('click', function () {
+      if (q.classList.contains('resuelta')) return;
+      q.classList.add('resuelta');
+      var acierto = +b.dataset.i === correcta;
+      ops[correcta].classList.add('correcta');
+      if (!acierto) b.classList.add('incorrecta');
+      var letra = expl.dataset.letra, texto = expl.innerHTML;
+      expl.innerHTML = '<strong class="res">' + (acierto ? '¡Correcto!' : 'Incorrecto.') + ' Respuesta correcta: ' + letra + '.</strong>' + texto;
+      expl.classList.add(acierto ? 'ok' : 'ko');
+      expl.classList.remove('hidden');
+    });
+  });
+});
+</script>
+</body>
+</html>
